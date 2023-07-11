@@ -42,5 +42,5 @@ form.addEventListener('input', () => {
 });
 
 if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('sw.js', { scope: '/' });
+    navigator.serviceWorker.register('/sample-pwa/sw.js', { scope: '/sample-pwa/' });
 }
