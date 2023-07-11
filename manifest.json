@@ -13,6 +13,10 @@
         {
             "src": "/sample-pwa/favicon.svg",
             "sizes": "any"
+        },
+        {
+            "src": "/sample-pwa/favicon.png",
+            "sizes": "512x512"
         }
     ]
 }
