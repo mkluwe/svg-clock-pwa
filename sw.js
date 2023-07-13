@@ -1,4 +1,4 @@
-const CACHE_NAME = `temperature-converter-v1`;
+const CACHE_NAME = `sample-pwa-v1`;
 
 self.addEventListener('install', event => {
   event.waitUntil((async () => {

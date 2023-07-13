@@ -5,29 +5,12 @@
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <link rel="shortcut icon" href="/sample-pwa/favicon.svg" />
     <link rel="manifest" href="/sample-pwa/manifest.json" />
-    <link rel="stylesheet" href="/sample-pwa/converter.css" />
-    <title>Temperature converter</title>
+    <link rel="stylesheet" href="/sample-pwa/app.css" />
+    <title>Sample PWA</title>
     <meta name="description" content="Sample PWA App.">
     <meta name="theme-color" content="#2f3d58" />
-    <script defer src="/sample-pwa/converter.js"></script>
+    <script defer src="/sample-pwa/app.js"></script>
 </head>
   <body>
-    <form id="converter">
-        <label for="input-temp">temperature</label>
-        <input type="text" id="input-temp" name="input-temp" value="20" />
-        <label for="input-unit">from</label>
-        <select id="input-unit" name="input-unit">
-          <option value="c" selected>Celsius</option>
-          <option value="f">Fahrenheit</option>
-          <option value="k">Kelvin</option>
-        </select>
-        <label for="output-unit">to</label>
-        <select id="output-unit" name="output-unit">
-          <option value="c">Celsius</option>
-          <option value="f" selected>Fahrenheit</option>
-          <option value="k">Kelvin</option>
-        </select>
-        <output name="output-temp" id="output-temp" for="input-temp input-unit output-unit">68 F</output>
-      </form>
   </body>
 </html>

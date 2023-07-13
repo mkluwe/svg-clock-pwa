@@ -1,0 +1,13 @@
+html {
+  background: black;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: grid;
+  place-items: center;
+}
