@@ -1,19 +1,15 @@
 {
   "lang": "en-us",
-  "name": "Sample PWA",
-  "short_name": "Sample PWA",
-  "description": "Sample PWA, should be installable",
+  "name": "SVG Clock PWA",
+  "short_name": "SVG Clock PWA",
+  "description": "SVG Clock PWA, should be installable",
   "start_url": "/svg-clock-pwa/",
   "scope": "/svg-clock-pwa/",
-  "background_color": "#2f3d58",
-  "theme_color": "#2f3d58",
+  "background_color": "#f9f9e9",
+  "theme_color": "#f9f9e9",
   "orientation": "any",
   "display": "standalone",
   "icons": [
-    {
-      "src": "/svg-clock-pwa/favicon.svg",
-      "sizes": "any"
-    },
     {
       "src": "/svg-clock-pwa/favicon.png",
       "sizes": "512x512",
