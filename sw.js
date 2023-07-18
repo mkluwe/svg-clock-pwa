@@ -1,12 +1,12 @@
-const CACHE_NAME = `sample-pwa-v1`;
+const CACHE_NAME = `svg-clock-pwa-v1`;
 
 self.addEventListener('install', event => {
   event.waitUntil((async () => {
     const cache = await caches.open(CACHE_NAME);
     cache.addAll([
-      '/sample-pwa/',
-      '/sample-pwa/converter.js',
-      '/sample-pwa/converter.css'
+      '/svg-clock-pwa/',
+      '/svg-clock-pwa/app.js',
+      '/svg-clock-pwa/app.css'
     ]);
   })());
 });

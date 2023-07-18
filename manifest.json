@@ -1,23 +1,23 @@
 {
-    "lang": "en-us",
-    "name": "Sample PWA",
-    "short_name": "Sample PWA",
-    "description": "Sample PWA, should be installable",
-    "start_url": "/sample-pwa/",
-    "scope": "/sample-pwa/",
-    "background_color": "#2f3d58",
-    "theme_color": "#2f3d58",
-    "orientation": "any",
-    "display": "standalone",
-    "icons": [
-        {
-            "src": "/sample-pwa/favicon.svg",
-            "sizes": "any"
-        },
-        {
-            "src": "/sample-pwa/favicon.png",
-            "sizes": "512x512",
-            "purpose": "any maskable"
-        }
-    ]
+  "lang": "en-us",
+  "name": "Sample PWA",
+  "short_name": "Sample PWA",
+  "description": "Sample PWA, should be installable",
+  "start_url": "/svg-clock-pwa/",
+  "scope": "/svg-clock-pwa/",
+  "background_color": "#2f3d58",
+  "theme_color": "#2f3d58",
+  "orientation": "any",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/svg-clock-pwa/favicon.svg",
+      "sizes": "any"
+    },
+    {
+      "src": "/svg-clock-pwa/favicon.png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ]
 }

@@ -1,4 +1,4 @@
-# sample-pwa
+# svg-clock-pwa
 
 Sample PWA, modified version of Microsoft Edge tutorial
 
@@ -10,7 +10,7 @@ For live serving when developing, `live-server` can be installed:
 
 To be compatible with GitHub Pages defined root, use `--mount`
 
-    live-server --mount=/sample-pwa:. --browser=google-chrome
+    live-server --mount=/svg-clock-pwa:. --browser=google-chrome
 
 `live-server` can be used via `node`, call
 

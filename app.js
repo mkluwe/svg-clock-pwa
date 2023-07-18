@@ -3,5 +3,5 @@ document.body.addEventListener('pointerdown', (event) => {
 });
 
 if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/sample-pwa/sw.js', { scope: '/sample-pwa/' });
+    navigator.serviceWorker.register('/svg-clock-pwa/sw.js', { scope: '/svg-clock-pwa/' });
 }
