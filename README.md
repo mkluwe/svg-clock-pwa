@@ -14,4 +14,4 @@ To be compatible with GitHub Pages defined root, use `--mount`
 
 `live-server` can be used via `node`, call
 
-    `node live-server.js`
+    node live-server.js
